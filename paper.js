@@ -8,6 +8,7 @@ class Paper {
         this.body = Bodies.circle(x, y, radius, options);
         this.image= loadImage("paper.png")
         this.radius=radius
+       World.add(world,this.body)
       }
       display(){
         var pos=this.body.position

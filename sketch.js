@@ -57,6 +57,6 @@ function keyPressed() {
  if (keyCode === UP_ARROW) {
 	
     // Look at the hints in the document and understand how to make the package body fall only on
-    Matter.Body.applyForce(paper.body,paper.body.position,{x:30,y:-30});
+    Matter.Body.applyForce(paper.body,paper.body.position,{x:9.5,y:-9.5});
   }
 }
